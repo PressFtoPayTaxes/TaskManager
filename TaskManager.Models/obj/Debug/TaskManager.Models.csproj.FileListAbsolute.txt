@@ -1,0 +1,15 @@
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\obj\Debug\TaskManager.Models.csprojAssemblyReference.cache
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\obj\Debug\TaskManager.Models.Properties.Resources.resources
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\obj\Debug\TaskManager.Models.csproj.GenerateResource.cache
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\obj\Debug\TaskManager.Models.csproj.CoreCompileInputs.cache
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\bin\Debug\TaskManager.Models.exe.config
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\bin\Debug\TaskManager.Models.exe
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\bin\Debug\TaskManager.Models.pdb
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\bin\Debug\EntityFramework.dll
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\bin\Debug\EntityFramework.xml
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\obj\Debug\TaskManager.Models.csproj.CopyComplete
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\obj\Debug\TaskManager.Models.exe
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models\obj\Debug\TaskManager.Models.pdb

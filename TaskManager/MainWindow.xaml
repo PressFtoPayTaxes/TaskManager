@@ -1,0 +1,63 @@
+﻿<Window x:Class="TaskManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:TaskManager"
+        mc:Ignorable="d"
+       TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+       TextElement.FontWeight="Regular"
+       TextElement.FontSize="13"
+       TextOptions.TextFormattingMode="Ideal"
+       TextOptions.TextRenderingMode="Auto"
+       Background="{DynamicResource MaterialDesignPaper}"
+       FontFamily="{DynamicResource MaterialDesignFont}"
+       Title="Планировщик задач" Height="640.249" Width="406.378" ResizeMode="NoResize" Icon="Actions-view-calendar-tasks-icon.png"
+       Closing="WindowClosing">
+    <Grid Margin="0,0,2,0">
+        <DatePicker Name="datePicker" HorizontalAlignment="Left" Margin="239,32,0,0" VerticalAlignment="Top" Height="29" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="46,45,0,0" TextWrapping="Wrap" Text="Выберите дату: " VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="45,133,0,0" TextWrapping="Wrap" Text="Выберите периодичность:" VerticalAlignment="Top"/>
+        <ComboBox Name="periodComboBox"  HorizontalAlignment="Left" Margin="238,121,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Один раз"/>
+            <ComboBoxItem Content="Раз в день"/>
+            <ComboBoxItem Content="Раз в неделю"/>
+            <ComboBoxItem Content="Раз в месяц"/>
+            <ComboBoxItem Content="Раз в год"/>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="45,175,0,0" TextWrapping="Wrap" Text="Выберите тип операции:" VerticalAlignment="Top"/>
+        <ComboBox Name="operationTypeComboBox" HorizontalAlignment="Left" Margin="238,163,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="OperationTypeComboBoxSelectionChanged">
+            <ComboBoxItem Content="Отправить email"/>
+            <ComboBoxItem Content="Скачать файл"/>
+            <ComboBoxItem Content="Переместить каталог"/>
+        </ComboBox>
+        <GroupBox Name="sendEmailGroupBox" Visibility="Visible" HorizontalAlignment="Left" Height="301" Margin="39,223,0,0" VerticalAlignment="Top" Width="319">
+            <Grid>
+                <TextBlock HorizontalAlignment="Left" Margin="21,25,0,0" TextWrapping="Wrap" Text="Кому:" VerticalAlignment="Top"/>
+                <TextBox Name="receiverTextBox" HorizontalAlignment="Left" Height="23" Margin="91,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+                <TextBlock HorizontalAlignment="Left" Margin="22,58,0,0" TextWrapping="Wrap" Text="Тема:" VerticalAlignment="Top"/>
+                <TextBox Name="themeTextBox" HorizontalAlignment="Left" Height="23" Margin="91,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+                <TextBox Name="mailTextBox" Margin="21,0,28,21" TextWrapping="Wrap" Text="" Height="155" VerticalContentAlignment="Top" VerticalAlignment="Bottom"/>
+            </Grid>
+        </GroupBox>
+        <Button Content="Установить задачу" Margin="39,0,192,22" Height="39" VerticalAlignment="Bottom" Click="ButtonClick"/>
+        <GroupBox Name="downloadFileGroupBox" Visibility="Collapsed" HorizontalAlignment="Left" Height="72" Margin="39,206,0,0" VerticalAlignment="Top" Width="319">
+            <Grid>
+                <TextBlock Margin="10,10,164,0" TextWrapping="Wrap" Text="Введите URL файла:" VerticalAlignment="Top"/>
+                <TextBox Name="fileUrlTextBox" HorizontalAlignment="Left" Height="23" Margin="142,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Name="replaceDirectoryGroupBox" Visibility="Collapsed" HorizontalAlignment="Left" Height="126" Margin="45,220,0,0" VerticalAlignment="Top" Width="313">
+            <Grid>
+                <TextBlock HorizontalAlignment="Left" Margin="10,19,0,0" TextWrapping="Wrap" Text="Откуда: " VerticalAlignment="Top"/>
+                <TextBox Name="primordialFolderTextBox" HorizontalAlignment="Left" Height="23" Margin="89,12,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="187"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,52,0,0" TextWrapping="Wrap" Text="Куда: " VerticalAlignment="Top"/>
+                <TextBox Name="destinationFolderTextBox" HorizontalAlignment="Left" Height="23" Margin="89,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="187"/>
+            </Grid>
+        </GroupBox>
+        <TextBlock HorizontalAlignment="Left" Margin="46,86,0,0" TextWrapping="Wrap" Text="Введите название задачи: " VerticalAlignment="Top"/>
+        <TextBox Name="taskNameTextBox" HorizontalAlignment="Left" Height="23" Margin="239,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Задачи" HorizontalAlignment="Left" Margin="226,550,0,0" VerticalAlignment="Top" Width="132" Height="39" Click="TasksButtonClick"/>
+    </Grid>
+</Window>

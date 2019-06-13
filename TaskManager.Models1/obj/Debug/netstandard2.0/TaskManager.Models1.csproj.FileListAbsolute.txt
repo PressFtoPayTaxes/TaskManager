@@ -1,0 +1,9 @@
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models1\bin\Debug\netstandard2.0\TaskManager.Models1.deps.json
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models1\bin\Debug\netstandard2.0\TaskManager.Models1.dll
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models1\bin\Debug\netstandard2.0\TaskManager.Models1.pdb
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models1\obj\Debug\netstandard2.0\TaskManager.Models1.csprojAssemblyReference.cache
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models1\obj\Debug\netstandard2.0\TaskManager.Models1.csproj.CoreCompileInputs.cache
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models1\obj\Debug\netstandard2.0\TaskManager.Models1.AssemblyInfoInputs.cache
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models1\obj\Debug\netstandard2.0\TaskManager.Models1.AssemblyInfo.cs
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models1\obj\Debug\netstandard2.0\TaskManager.Models1.dll
+C:\Users\СкоропадИг\source\repos\TaskManager\TaskManager.Models1\obj\Debug\netstandard2.0\TaskManager.Models1.pdb
